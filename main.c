@@ -14,7 +14,7 @@ void LerDados (tpdados cadfunc[]){
     int i;
     for(i=0;i<numFunc;i++){
         printf("\nDigite o nome do funcionario: ");
-        scanf("%[^\n]c",cadfunc[i].nome);
+        scanf("%s",cadfunc[i].nome);
         fflush(stdin);
         printf("Digite o codigo do funcionario: ");
         scanf("%i",&cadfunc[i].codigo);
@@ -93,7 +93,7 @@ printf("O AJUSTE DE %.2f POR CENTO FOI FEITO!!!!!\n",n);
 
 
 void Menu (tpdados cadfunc[]){
-    int m; //Variavel de interação do menu
+    int m; //Variavel de interaÃ§Ã£o do menu
     printf("\n\n_____________________________________________________________________________________________________________\n\n");
     printf("                                                   MENU                                         \n\n");
     printf("DIGITE 1 PARA DIGITAR AS INFORMACOES DOS 5 USUARIOS\n");
